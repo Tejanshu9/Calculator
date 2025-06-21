@@ -1,0 +1,74 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#display {
+  width: 100%;
+  height: 60px;
+  font-size: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 15px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.num-btn {
+  background-color: #e0f7fa;
+}
+
+.op-btn {
+  background-color: #ffe082;
+}
+
+.func-btn {
+  background-color: #dcedc8;
+}
+
+.num-btn:hover {
+  background-color: #b2dfdb;
+}
+
+.op-btn:hover {
+  background-color: #ffca28;
+}
+
+.func-btn:hover {
+  background-color: #c5e1a5;
+}
